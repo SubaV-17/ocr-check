@@ -20,7 +20,7 @@ def check_ocr_accuracy(text, expected_text):
 
 
 if __name__ == "__main__":
-    image_path = "images/picture1.png" # relative path
+    image_path = "images/Picture1.png" # relative path
     expected_text = "This is the sample text that should be in the image"
 
     ocr_text = ocr_from_local(image_path)
